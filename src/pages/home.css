@@ -1,0 +1,41 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.home__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+.home__headerLeft,.home__headerRight{
+    display: flex;
+    align-items: center;
+
+}
+.home__headerLeft p {
+    margin-right: 20px;
+    font-size: 15px;
+}
+.home__headerRight p{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.home__headerRight>Svg{
+    margin-left: 20px;
+    
+}
+.home__headerRight .MuiAvatar-root{
+    margin-left: 20px;
+    
+}
+.home__body{
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+}
+.home__body>img{
+    object-fit: contain;
+    height: 100px;
+}
